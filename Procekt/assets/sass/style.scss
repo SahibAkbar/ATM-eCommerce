@@ -1,0 +1,47 @@
+@import "./partial/header";
+@import "./partial/home";
+@import "./partial/footer";
+@import "./partial/catagory";
+@import "./partial/shop";
+@import "./partial/productdetail";
+@import "./partial/product";
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #cfc9c95c;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+a{
+    text-decoration: none;
+    color: white;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    background: 0 0;
+    border: 0;
+    outline: 0;
+    &:hover{
+        color: white;
+    }
+}
+p{
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.container {
+    max-width: 1440px;
+}
+li{
+    list-style: none;
+}

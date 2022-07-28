@@ -1,0 +1,23 @@
+.catagory{
+    margin-bottom: 200px;
+    margin-top: 30px;
+    .location-page{
+        ul{
+            display: flex;
+            li{
+                color: black;
+                margin-right: 5px;
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+    .category-title{
+        h2{
+            text-align: center;
+            font-weight: 700;
+            padding: 10px 0px 65px 0px;
+        }
+    }
+}

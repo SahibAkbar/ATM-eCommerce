@@ -1,0 +1,125 @@
+ .home-slider{
+    padding: 30px 0;
+ }
+ .shop-cart{
+    margin-bottom: 500px;
+    .content{
+        border: 1px solid #8f8787;
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        min-height: 100%;
+        .main-img{
+            a{
+                display: block;
+                h2{
+                    padding-left: 20px;
+                    padding-top: 20px;
+                    margin: 0;
+                    color: black;
+                }
+            }
+        }
+        .add-buttons{
+            text-align: end;
+            button{
+                background: #D75050;
+                color: white;
+                padding: 0px 11px;
+                i{
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+ }
+
+
+@media (max-width: 575px){
+    .head-nav .catagory-navbars{
+        flex-direction: column;
+    }
+    .head-nav .ctgry{
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .head-nav .center .catagroy-form{
+        margin-right: 0px;
+    }
+    .head-nav .center .catagroy-search-input{
+        width: 300px;
+    }
+    .head-nav .top {
+        display: block;
+    }
+    .head-nav .top .left{
+        justify-content: center;
+    }
+    .head-nav .top .right{
+        justify-content: center;
+    }
+    .head-nav .top .left span{
+        margin-left: 3px;
+        margin-right: 3px;
+        font-size: 15px;
+    } 
+    header .head-nav .top .left span{
+        margin-left: 0;
+    }
+    header .head-nav .top .left a{
+        font-size: 18px;
+    }
+    .cart{
+        img{
+            width: 30px;
+        }
+    }
+    .head-nav .center .navbar-toggle i{
+        font-size: 30px;
+    }
+    .head-nav .center form input{
+        height: 40px;
+    }
+    .head-nav .center form button img{
+        width: 30px;
+    }
+}
+@media (max-width: 575px) and (min-width:368px) {}
+@media (max-width: 368px){
+    header .head-nav .top .left span{
+        margin-left: 0;
+    }
+    header .head-nav .top .left a{
+        font-size: 18px;
+    }
+}
+@media (max-width: 767.98px) and (min-width: 575px) {}
+@media (max-width: 767.98px) {
+    .head-nav .top .left span{
+        font-size: 16px;
+        margin-left: 15px;
+    } 
+    .head-nav .center {
+        justify-content: space-between;
+    }
+    .head-nav .center form input {
+        width: 200px;
+    }
+    .carousel-item{
+        img{
+            height: 200px;
+        }
+    }
+}
+@media (max-width: 991.98px) {
+    .head-nav .center form {
+        margin-right: 35px;
+    }
+}
+@media (max-width: 767px){
+    
+}
+@media (max-width: 991.98px) and (min-width: 767px) {
+}

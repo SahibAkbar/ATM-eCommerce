@@ -1,0 +1,221 @@
+.product-page{
+    margin-top: 30px;
+    margin-bottom: 200px;
+    .page-location{
+        ul{
+            display: flex;
+            li{
+                color: black;
+                margin-right: 5px;
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+    .product-img{
+        .small-img{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            button{
+                margin-bottom: 10px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                img{}
+            }
+        }
+        .main-img{
+            margin-top: 55px;
+            img{}
+        }
+    }
+    .content{
+        margin-top: 55px;
+        .title{
+            border-top: 1px solid #c00000;
+            border-bottom: 1px solid #c00000;
+            padding: 10px;
+            h2{
+                font-weight: 700;
+                font-size: 27px;
+            }
+        }
+        .body1{
+            padding: 10px;
+            margin: 34px 0 180px;
+            display: flex;
+            align-items: center;
+            p{
+                font-size: 25px;
+                font-weight: 700;
+            }
+            span{
+                margin-left: 30px;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        .body2{
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            p{
+                font-size: 22px;
+                font-weight: 600;
+                margin-right: 30px;
+            }
+        }
+        .price{
+            color: #00b050;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px;
+            margin-bottom: 60px;
+            span{
+                padding-left: 10px;
+            }
+        }
+        .button-add{
+            display: flex;
+            text-align: center;
+            padding: 10px;
+            button{
+                margin-right: 30px;
+                padding: 10px 65px;
+                background: #d75050;
+                color: white;
+                font-size: 21px;
+            }
+            .quatity{
+                width: 100px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                vertical-align: middle;
+                border: 1px solid #000;
+                margin-right: 15px;
+                .minus{
+                    margin-left: 13px;
+                    width: 26px;
+                    height: 26px;
+                    font-size: 17px;
+                    border-left: 0;
+                    cursor: pointer;
+                }
+                input{
+                    position: relative;
+                    height: 30px;
+                    width: 46px;
+                    margin: 0;
+                    padding: 0;
+                    font-family: inherit;
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: 1;
+                    border: none;
+                    outline: 0;
+                    cursor: text;
+                    border: none;
+                    display: inline-block;
+                    vertical-align: middle;
+                    text-align: center;
+                    user-select: none;
+                    color: #000;
+                    &:disabled{
+                        background-color: transparent;
+                    }
+                }
+                .plus{
+                    margin-right: 13px;
+                    font-size: 17px;
+                    width: 26px;
+                    height: 26px;
+                    border-left: 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .desc{
+        margin-top: 50px;
+        .product-tab-nav{
+            .nav-item{
+                .tab-btn{
+                    background: white;
+                    color: black;
+                    padding: 7px 50px;
+                    font-size: 20px;
+                    font-weight: 600;
+                    border: 2px solid #d75050;
+                    margin-right: 50px;
+                    display: block;
+                }
+                .active{
+                    background-color: #eac1c1;
+                }
+            }
+        }
+        .tab-content{
+            margin-top: 15px;
+            .tab-pane{
+                background: white;
+                .product-description-body{
+                    height: 400px;
+                    padding: 10px;
+                    p{
+                        font-weight: 700;
+                        font-size: 18px;
+                    }
+                }
+                .product-information-body{
+                    height: 400px;
+                    padding: 10px;
+                    p{
+                        font-weight: 700;
+                        font-size: 18px;
+                    }
+                    table{
+                        margin-top: 20px;
+                        width: 35%;
+                        tbody{
+                            tr{
+                                th{
+                                    font-size: 20px;
+                                }
+                                td{
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .product-review-body{
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        padding: 50px 0px 100px 50px;
+                        li{
+                            margin-right: 60px;
+                            .accseserios{
+                                border: 1px solid black;
+                                .img{
+                                    display: block;
+                                }
+                                h4{
+                                    a{
+                                        padding: 30px 10px;
+                                        color: black;
+                                        display: block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
